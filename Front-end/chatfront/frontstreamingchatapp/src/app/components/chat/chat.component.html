@@ -1,0 +1,21 @@
+<div class="chat-container">
+    <div class="chat-messages">
+      <ul class="list-group" *ngFor="let message of messages">
+        <li class="list-group-item">
+          <p-panel [header]="currentuser" class="chat-panel">
+            <div class="chat-bubble">
+              {{message}}
+            </div>
+          </p-panel>
+        </li>
+      </ul>
+    </div>
+    <div class="chat-input-area">
+      <form class="chat-form">
+        <input type="text" pInputText name="message" [(ngModel)]="message" class="chat-input">
+        <button (click)="sendMessage()" class="chat-button">Send</button>
+      </form>
+    </div>
+  </div>
+  
+  
