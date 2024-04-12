@@ -1,10 +1,12 @@
-<div class="chat-container">
+<div class="container">
+  <div class="chat-container">
     <div class="chat-messages">
       <ul class="list-group" *ngFor="let message of messages">
         <li class="list-group-item">
-          <p-panel  class="chat-panel">
+          <p-panel [header]="message.rol" class="chat-panel">
+            <h3>{{message.user}}</h3>
             <div class="chat-bubble">
-              {{message}}
+              {{message.message}}
             </div>
           </p-panel>
         </li>
@@ -17,5 +19,9 @@
       </form>
     </div>
   </div>
+  <div class="video-container">
+    <iframe  src="https://www.youtube.com/embed/VYXdpjCZojA?si=BnbJLY0U1dSIpt7T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
   
   

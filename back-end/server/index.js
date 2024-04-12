@@ -16,7 +16,8 @@ io.on('connection', (socket) => {
     console.log('Usuario conectado');
     socket.on('message', (data) => {
         console.log(data);
-        socket.broadcast.emit('received', { data: data, message: 'Esto es un mensaje del servidor' });
+        const segmento = data.split(':');
+        socket.broadcast.emit('received', { data: segmento[1], mensajero: segmento[0],rol:segmento[2] });
     });
 });
 
