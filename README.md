@@ -33,7 +33,7 @@ npm run dev
 para ejecutar el proyecto  
 
 # instrucciones de ejecucion Front-end:  
-Front-end\chatfront\frontstreamingchatapp con angular instalado y depues de ejecutar npm intall para traer las dependencias ejecute el comando  
+ubiquese en el directorio desde Front-end\chatfront\frontstreamingchatapp con angular instalado y depues de ejecutar npm intall para traer las dependencias ejecute el comando  
 
 ng serve  
 para ejecutar el proyecto de angular  
