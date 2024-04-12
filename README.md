@@ -44,7 +44,7 @@ en su navegador ingrese al http://localhost:4200/ para visualizar la pantalla lo
 
 para ver la funcionalidad abra otros navegadore o pestañas de incognito de su navegar tantas como usuarios quiera ver y haga login con algunos de estos
 
-![image](https://github.com/JuanRincon15/streamchat/assets/123415094/59beb9a7-916b-4923-b046-4a6e11f60b72)
+![image](https://github.com/JuanRincon15/streamchat/assets/123415094/37bc7ed9-f80b-4bb8-b713-2dedf72bbce8)
 
 manda mensajes entre los clientes estos se identificaran en el chat por nombre de usuario y rol
 
