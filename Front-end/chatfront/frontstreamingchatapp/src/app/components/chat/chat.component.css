@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: calc(100% - 300px);
   height: 100%;
   z-index: -1; /* Asegura que el video esté detrás del contenido HTML */
 }
@@ -16,28 +16,28 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 300px; /* Ancho del contenedor del chat */
-    background-color: #f0f0f0; /* Color de fondo del contenedor */
+    width: 300px; 
+    background-color: #f0f0f0; 
     position: fixed;
-    left: 0; /* Alinear el contenedor a la izquierda de la pantalla */
-    top: 0; /* Asegurar que el contenedor comience desde la parte superior de la pantalla */
-    overflow-y: auto; /* Para permitir desplazamiento vertical si hay muchos mensajes */
+    left: calc(100% - 300px); 
+    top: 0; 
+    overflow-y: auto; 
   }
   
   .chat-messages {
     flex-grow: 1;
-    overflow-y: auto; /* Para permitir desplazamiento vertical si hay muchos mensajes */
+    overflow-y: auto; 
   }
   
   .chat-input-area {
-    margin-top: auto; /* Empuja el formulario hacia abajo */
+    margin-top: auto; 
   }
   
   .chat-panel {
-    margin-bottom: 5px; /* Espaciado entre los mensajes */
+    margin-bottom: 5px; 
   }
   
-  /* Estilos para el chat bubble */
+
   .chat-bubble {
     background-color: #6ea2da;
     color: white;
@@ -70,6 +70,6 @@
     cursor: pointer;
   }
   h3 {
-    font-size: 14px; /* Puedes ajustar el valor según tus necesidades */
+    font-size: 14px; 
   }
   
