@@ -26,4 +26,9 @@ al ejecutarse el servidor abre un web socket para transmitir los mensajes y expo
 # instrucciones de ejecucion
 Back-end:  
 despues de clonar el repositorio teniendo node js intalado desde la consola ubiquese sobre el directorio back-end y ejecute el comando:  
-npm install
+npm install  
+para instalar las dependencias del proyecto  
+despues ejecute el comando:  
+npm run dev  
+para ejecutar el proyecto  
+
