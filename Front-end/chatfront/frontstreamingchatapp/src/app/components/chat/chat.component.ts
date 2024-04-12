@@ -12,6 +12,7 @@ export class ChatComponent implements OnInit{
   public message: string = '';
   public messages: any = [];
   public currentuser:any = '';
+  public moderador:string = '';
  
   constructor(private chatservice:  ChatService){
 
@@ -22,8 +23,8 @@ export class ChatComponent implements OnInit{
   }
 
   public sendMessage(){
-    this.chatservice.sendMessage(this.message);
-    this.messages.push(this.message);
+    this.chatservice.sendMessage(this.currentuser+": "+this.message);
+    this.messages.push(this.currentuser+": "+this.message);
     this.message = '';
   }
   public listMessage(){
