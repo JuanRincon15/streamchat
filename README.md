@@ -46,9 +46,18 @@ para ver la funcionalidad abra otros navegadore o pestañas de incognito de su n
 
 ![image](https://github.com/JuanRincon15/streamchat/assets/123415094/59beb9a7-916b-4923-b046-4a6e11f60b72)
 
-manda mensajes entre los clientes estos se identificaran en el chat  
+manda mensajes entre los clientes estos se identificaran en el chat por nombre de usuario y rol
 
 ![image](https://github.com/JuanRincon15/streamchat/assets/123415094/dde9eb39-d97c-4a4b-9b6a-741e58ce5aef)
+
+mientras se envian estos se guardaran en la base de datos por sesion  
+![image](https://github.com/JuanRincon15/streamchat/assets/123415094/85416f66-78cd-4dc3-91d3-4e83bcbe42a0)
+
+# persistencia 
+
+finalmente para el guardado de usuarios y mensajes se simulo una base de datos mysql con mysqlite3 
+
+![image](https://github.com/JuanRincon15/streamchat/assets/123415094/2a98638f-a2d6-4b54-9b0c-b27c6e22df03)
 
 
 
