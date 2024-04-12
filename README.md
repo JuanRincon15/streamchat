@@ -23,8 +23,8 @@ al ejecutarse el servidor abre un web socket para transmitir los mensajes y expo
 
 ![image](https://github.com/JuanRincon15/streamchat/assets/123415094/d9e13ebe-bd50-4119-8c90-87acc7904ca5)
 
-# instrucciones de ejecucion
-Back-end:  
+# instrucciones de ejecucion Back-end: 
+ 
 despues de clonar el repositorio teniendo node js intalado desde la consola ubiquese sobre el directorio back-end y ejecute el comando:  
 npm install  
 para instalar las dependencias del proyecto  
@@ -32,3 +32,4 @@ despues ejecute el comando:
 npm run dev  
 para ejecutar el proyecto  
 
+# instrucciones de ejecucion Front-end:  
