@@ -22,3 +22,8 @@ el backend se compone de dos servicios principalmente el servicio que interpreta
 al ejecutarse el servidor abre un web socket para transmitir los mensajes y expone un servicio rest de autenticacion  
 
 ![image](https://github.com/JuanRincon15/streamchat/assets/123415094/d9e13ebe-bd50-4119-8c90-87acc7904ca5)
+
+# instrucciones de ejecucion
+Back-end:  
+despues de clonar el repositorio teniendo node js intalado desde la consola ubiquese sobre el directorio back-end y ejecute el comando:  
+npm install
