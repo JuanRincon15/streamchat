@@ -6,6 +6,17 @@ const db = new sqlite3.Database('bd.sqlite3',sqlite3.OPEN_READWRITE,(err) => {
     if (err) return console.error(err.message);
 });
 
-sql = "CREATE TABLE IF NOT EXISTS usuarios (id INTEGER PRIMARY KEY AUTOINCREMENT,nombre VARCHAR(255),usuario VARCHAR(50) UNIQUE,contraseña VARCHAR(255),tipo_usuario VARCHAR(20) CHECK(tipo_usuario IN ('estudiante', 'moderador')));"
+sql = `
+
+
+CREATE TABLE mensajes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_sesion VARCHAR(100),
+    nombre_usuario VARCHAR(100),
+    mensaje TEXT,
+    FOREIGN KEY (id_sesion) REFERENCES sesiones(nombre)
+);
+
+`
 
 db.run(sql);
