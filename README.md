@@ -6,8 +6,12 @@ los participantes se comunican entre ellos mediante un chat grupal disponible pa
 -framework: angular  
 la intefaz se compone de dos pantallas  
 # login  
-pantalla de autinticacion de usuarios 
+pantalla de autenticacion de usuarios el usuario ingresa el nombre de usuario y contraseña con el cual se encuentra registrado
 
 ![image](https://github.com/JuanRincon15/streamchat/assets/123415094/8b40509d-9aa9-4bb2-976d-2618b27a74d6)
 
 
+# Streaming de clase
+pantalla de streaming de clase en la parte izquierda se puede visualizar el contenido y en la parte derecha el chat de interaccion  
+
+![image](https://github.com/JuanRincon15/streamchat/assets/123415094/d539e281-94ea-4a55-aa5a-ccc603a1146c)
