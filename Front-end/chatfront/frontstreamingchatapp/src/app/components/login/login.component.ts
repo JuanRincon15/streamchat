@@ -19,6 +19,7 @@ export class LoginComponent {
       Response => {
         this.router.navigate(['/chat']);
         localStorage.setItem('user',this.credentials.user)
+        localStorage.setItem('rol',Response.tipo)
         console.log(Response.message)
       },
       error => {
