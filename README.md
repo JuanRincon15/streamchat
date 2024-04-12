@@ -33,3 +33,24 @@ npm run dev
 para ejecutar el proyecto  
 
 # instrucciones de ejecucion Front-end:  
+Front-end\chatfront\frontstreamingchatapp con angular instalado y depues de ejecutar npm intall para traer las dependencias ejecute el comando  
+
+ng serve  
+para ejecutar el proyecto de angular  
+
+en su navegador ingrese al http://localhost:4200/ para visualizar la pantalla login  
+
+![image](https://github.com/JuanRincon15/streamchat/assets/123415094/50fbdb9d-761e-4cb3-b639-c5aae7011c9d)
+
+para ver la funcionalidad abra otros navegadore o pestañas de incognito de su navegar tantas como usuarios quiera ver y haga login con algunos de estos
+
+![image](https://github.com/JuanRincon15/streamchat/assets/123415094/59beb9a7-916b-4923-b046-4a6e11f60b72)
+
+manda mensajes entre los clientes estos se identificaran en el chat  
+
+![image](https://github.com/JuanRincon15/streamchat/assets/123415094/dde9eb39-d97c-4a4b-9b6a-741e58ce5aef)
+
+
+
+
+
